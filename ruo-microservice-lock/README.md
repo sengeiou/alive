@@ -12,9 +12,9 @@
 - 锁既支持持锁时间后丢弃，也支持持锁超时等待时间
 - 锁注解既可以加在接口上，也可以加在实现类上，也可以加在没有接口只有类的情形下
   - 注解说明
-      - 注解com.alive.wt.microservice.lock.annotation.Lock，普通可重入锁
-      - 注解com.alive.wt.microservice.lock.annotation.ReadLock，读可重入锁
-      - 注解com.alive.wt.microservice.lock.annotation.WriteLock，写可重入锁
+      - 注解com.alive.ruo.microservice.lock.annotation.Lock，普通可重入锁
+      - 注解com.alive.ruo.microservice.lock.annotation.ReadLock，读可重入锁
+      - 注解com.alive.ruo.microservice.lock.annotation.WriteLock，写可重入锁
   - 参数说明
       - name 锁的名字
       - key 锁的Key。锁Key的完整路径是prefix + "" + name + "" + key，prefix为config.propertie里的namespace值
