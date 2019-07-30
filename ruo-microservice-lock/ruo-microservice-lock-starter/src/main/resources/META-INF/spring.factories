@@ -1,0 +1,2 @@
+com.alive.ruo.microservice.lock.starter.annotation.EnableLock=\
+com.alive.ruo.microservice.lock.starter.configuration.LockConfiguration
