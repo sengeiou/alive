@@ -27,7 +27,7 @@ elastic:
 3. 开启注解
 
 ```java
-package com.alive.wt.microservice;
+package com.alive.ruo.microservice;
 
 import com.alive.wt.microservice.elasticjob.annotation.EnableElasticJob;
 import com.spring4all.swagger.EnableSwagger2Doc;
